@@ -13,7 +13,7 @@ public class PostmanEchoTest {
         given()
                 .baseUri("https://postman-echo.com")
                 .contentType("text/plain; charset=UTF-8")
-                .body("Оно не работает!") // отправляемые данные (заголовки и query можно выставлять аналогично)
+                .body("Оно работает!") // отправляемые данные (заголовки и query можно выставлять аналогично)
  // Выполняемые действия
                 .when()
                 .post("/post")
